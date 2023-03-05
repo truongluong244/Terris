@@ -1,0 +1,413 @@
+:root {
+  --PrimaryColor: linear-gradient(180deg, #141e30, #243b55);
+  --SecondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(
+    to right,
+    hsl(187, 85%, 43%),
+    hsl(199, 100%, 33%)
+  );
+  --whiteColor: #ffffff;
+  --blackColor: hsl(201, 33%, 16%);
+  --textColor: rgb(97, 97, 97);
+  --WhiteColorDream: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: rgb(240, 240, 240);
+  --cardBG: rgb(225, 225, 235);
+  --headColor: rgb(18, 43, 91);
+}
+
+.homeContainer {
+  display: grid;
+  position: relative;
+  margin: 4rem 0 0 0;
+}
+
+.homeBackground {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  background-image: url("../../Assets/image1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.homeComponent {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.homeHealineText {
+  margin-top: 15px;
+}
+
+.homeHealine {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  display: inline-block;
+  word-break: break-word;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  letter-spacing: 0px;
+  line-height: 1;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  font-family: ui-sans-serif;
+  font-size: 2.4rem;
+  animation-duration: 2s;
+  animation-name: showin;
+}
+
+.homeHealine1 {
+  font-size: 2rem;
+}
+.homeHealine2 {
+  font-weight: bolder;
+  font-size: 2.4rem;
+}
+.homeHeadImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 260px;
+}
+.homeHealineIMG {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  position: absolute;
+  margin: 0 auto;
+  width: 60%;
+  height: 260px;
+  pointer-events: none;
+  background-image: url("../../Assets/image2.png");
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.homeInfo {
+  padding: 0 1rem;
+  position: relative;
+}
+
+.homeInfoHead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.homeInfoh2 {
+  color: var(--headColor);
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 1;
+}
+
+.homeInfoh2Line {
+  display: flex;
+  justify-self: center;
+  background-color: var(--headColor);
+  height: 4px;
+  width: 30%;
+  margin: 1rem 0;
+}
+.homeInfoIMG {
+  width: 70%;
+  margin: auto;
+}
+.homeInfoImgEdit {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 336px;
+  min-inline-size: -webkit-fill-available;
+  background-image: url("../../Assets/image3.jpg");
+  margin: auto;
+  -webkit-mask: url("../../Assets/layout1.png") 0% 0% / 100% 100%;
+}
+
+.homeInfoText {
+    margin-top: 1rem;
+}
+
+.homeInfoText p {
+    color: var(--textColor);
+    font-size: 1.4rem;
+    text-align: justify;
+    line-height: 1.4;
+    font-family: revert;
+    opacity: 80%;
+}
+.homeInfoIMGLayout2{
+    margin: auto;
+}
+
+.homeInfoImgLayout2Edit {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 260px;
+    min-inline-size: -webkit-fill-available;
+    background-image: url("../../Assets/image3.jpg");
+    margin: auto;
+    -webkit-mask: url("../../Assets/layout2.png") 0% 0% / 100% 100%;
+}
+.homeInfoLayout2Text {
+    display: flex;
+    justify-content: center;
+    color: var(--headColor);
+    font-size: 2rem;
+    margin: auto;
+}
+
+.homeInfoLayout2Text p{
+    text-align: center;
+    font-weight: 600;
+    font-family: revert;
+    -webkit-font-smoothing: none;
+}
+.homeTeam {
+    margin: 1.5rem 0;
+}
+.homeTeamLayout {
+    width: 100%;
+}
+
+.homteamimg {
+    display: flex;
+    margin: auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-inline: auto ;
+}
+.homeTeamText {
+    text-align: center;
+}
+.homeTeamTexth3 {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: darkslateblue;
+}
+.homeTeamTextP {
+    margin: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--textColor);
+}
+
+.homeVideo {
+    margin: 1rem 0;
+}
+
+video {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 320px;
+    margin: auto;
+}
+.homeVideoImg {
+    width: 100%;
+}
+
+.homeVideoImg img {
+    width: 90%;
+   height: auto;
+}
+
+.homeComment {
+    margin: 1.5rem 0;
+}
+.homeCommentLayout {
+    display: flex;
+    width: 100%;
+}
+
+.homeCommentImg {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-inline: auto ;
+}
+.homeCommentText {
+    text-align: start;
+    padding: 0 1rem;
+}
+
+.icon {
+    color: #0AB1D3;
+}
+.homeCommentTexth3 {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: var(--PrimaryColor);
+}
+.homeCommentTextP {
+    font-size: 0.8rem;
+    color: var(--textColor);
+    margin: 0.5rem 0;
+}
+
+
+
+
+
+
+
+.colum11 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.colum21 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.colum12 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.colum41 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+
+
+
+
+
+.animationRight {
+    animation-duration: 2s;
+  animation-name: showout;
+}
+
+.animationLeft {
+    animation-duration: 2s;
+  animation-name: showin;
+}
+
+
+
+@keyframes showin {
+  from {
+    margin-left: 100%;
+    width: 200%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes showout {
+    from {
+      margin-right: 100%;
+      width: 200%;
+    }
+  
+    to {
+      margin-right: 0%;
+      width: 100%;
+    }
+  }
+  
+
+  @media screen and (min-width:1024px){
+    .homeContainer {
+      margin: 6rem 0 0 0;
+  }
+  .homeBackground {
+    height: 32rem;
+  }
+  .homeHealineIMG {
+    height: 20rem;
+  }
+  .homeComponent {
+    height: 100%;
+}
+.homeHealine {
+  font-size: 2.6rem;
+}
+.homeInfoImgEdit {
+  height: 420px;
+}
+.homeInfoImgLayout2Edit {
+  height: 360px;
+}
+.homteamimg {
+  width: 140px;
+    height: 140px;
+}
+.homeTeamTexth3 {
+  font-size: 1.2rem;
+}
+.homeTeamTextP {
+  font-size: 1rem;
+  margin: 0 1rem;
+}
+.icon {
+  font-size: 2rem;
+}
+.homeCommentTextP {
+  font-size: 1rem;
+}
+.homeCommentTexth3 {
+  font-size: 1.2rem;
+}
+}
+
+@media screen and (min-width:1366px){
+  .homeBackground {
+    height: 42rem;
+  }
+  .homeHeadImg {
+    height: 320px;
+  }
+  .homeHealineIMG {
+    height: 28rem;
+}
+.homeHealine {
+  font-size: 2.8rem;
+}
+.homeInfoHead {
+  margin-top: 4rem;
+}
+.homteamimg {
+  width: 180px;
+    height: 180px;
+}
+.homeTeamTexth3 {
+  font-size: 1.4rem;
+}
+.homeTeamTextP {
+  font-size: 1.2rem;
+  margin: 0 1rem;
+}
+.homeCommentImg {
+  width: 180px;
+  height: 180px;
+}
+.homeCommentTextP {
+  font-size: 1.2rem;
+}
+.homeCommentTexth3 {
+  font-size: 1.4rem;
+}
+}

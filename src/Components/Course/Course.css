@@ -1,0 +1,189 @@
+:root {
+    --PrimaryColor: linear-gradient(180deg, #141e30, #243b55);
+    --SecondaryColor: hsl(187, 85%, 43%);
+    --gradientColor: linear-gradient(
+      to right,
+      hsl(187, 85%, 43%),
+      hsl(199, 100%, 33%)
+    );
+    --whiteColor: #ffffff;
+    --blackColor: hsl(201, 33%, 16%);
+    --textColor: rgb(97, 97, 97);
+    --WhiteColorDream: hsl(0, 0%, 93%);
+    --greyText: rgb(190, 190, 190);
+    --inputColor: rgb(239, 239, 239);
+    --bodyColor: rgb(240, 240, 240);
+    --cardBG: rgb(225, 225, 235);
+    --headColor: rgb(18, 43, 91);
+  }
+  
+  .courseContainer {
+    display: grid;
+    position: relative;
+    margin: 4rem 0 0 0;
+  }
+  
+  
+  .courseInfo {
+    padding: 0 1rem;
+    position: relative;
+  }
+  
+  .courseInfoHead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .courseInfoh2 {
+    color: var(--headColor);
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 1;
+  }
+  
+  .courseInfoh2Line {
+    display: flex;
+    justify-self: center;
+    background-color: var(--headColor);
+    height: 4px;
+    width: 30%;
+    margin: 1rem 0;
+  }
+
+  .courseInfoIMGLayout2{
+      margin: auto;
+  }
+  
+  .courseInfoImgLayout2Edit {
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 260px;
+      min-inline-size: -webkit-fill-available;
+      background-image: url("../../Assets/image3.jpg");
+      margin: auto;
+      -webkit-mask: url("../../Assets/layout2.png") 0% 0% / 100% 100%;
+  }
+  .courseInfoLayout2Text {
+      color: var(--headColor);
+      font-size: 2rem;
+      margin: auto;
+  }
+  
+  .courseInfoLayout2Text h3{
+    font-size: 1.6rem;
+      text-align: center;
+      font-weight: 600;
+      font-family: revert;
+      -webkit-font-smoothing: none;
+  }
+  .courseInfoLayout2Text p{
+    font-size: 1rem;
+    color: var(--textColor);
+    text-align: center;
+    font-weight: 100;
+    font-family: sans-serif;
+    line-height: 1.6;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .colum11 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+  
+  .colum21 {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+  }
+  
+  .colum12 {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+  }
+  .colum41 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .animationRight {
+      animation-duration: 2s;
+    animation-name: showout;
+  }
+  
+  .animationLeft {
+      animation-duration: 2s;
+    animation-name: showin;
+  }
+  
+  
+  
+  @keyframes showin {
+    from {
+      margin-left: 100%;
+      width: 200%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+  @keyframes showout {
+      from {
+        margin-right: 100%;
+        width: 200%;
+      }
+    
+      to {
+        margin-right: 0%;
+        width: 100%;
+      }
+    }
+
+
+    @media screen and (min-width:1024px){
+      .courseContainer {
+        margin: 6rem 0 0 0;
+    }
+   
+  .courseInfoImgEdit {
+    height: 420px;
+  }
+  .courseInfoImgLayout2Edit {
+    height: 360px;
+  }
+
+  }
+  
+  @media screen and (min-width:1366px){
+    .courseInfoImgLayout2Edit {
+      height: 480px;
+  }
+  .courseInfoLayout2Text h3 {
+    font-size: 2rem;
+  }
+  .courseInfoLayout2Text p {
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+  .courseInfoh2 {
+    font-size: 2.6rem;
+  }
+  }
+  

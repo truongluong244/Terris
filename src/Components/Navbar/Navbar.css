@@ -1,0 +1,85 @@
+:root {
+    --PrimaryColor: linear-gradient(180deg, #141e30, #243b55);
+    --SecondaryColor: hsl(187, 85%, 43%);
+    --gradientColor: linear-gradient(
+      to right,
+      hsl(187, 85%, 43%),
+      hsl(199, 100%, 33%)
+    );
+    --whiteColor: #ffffff;
+    --blackColor: hsl(201, 33%, 16%);
+    --textColor: rgb(97, 97, 97);
+    --WhiteColorDream: hsl(0, 0%, 93%);
+    --greyText: rgb(190, 190, 190);
+    --inputColor: rgb(239, 239, 239);
+    --bodyColor: rgb(240, 240, 240);
+    --cardBG: rgb(225, 225, 235);
+    --headColor:  rgb(18, 43, 91);
+  }
+
+.navBarSection{
+    display: flex;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    z-index: 90000050;
+    background: var(--PrimaryColor);
+    width: 100%;
+    justify-content: space-between;
+    height: 4rem;
+}
+
+
+.navbarLogo {
+    display: flex;
+    position: relative;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    pointer-events: none;
+    margin-left: 1rem;
+}
+
+
+
+.navbarImg {
+    max-width: 100%;
+    height: 200%;
+}
+
+.navbarLists {
+    display: flex;
+    margin-right: 1rem;
+}
+
+.navbarClick {
+    display: flex;
+    padding: 0.3rem 1rem;
+    color: var(--whiteColor);
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.navbarClick:hover {
+    cursor: pointer;
+}
+
+.activeLink {
+    color: skyblue;
+}
+
+.navbarClick:hover {
+    color: skyblue;
+ 
+}
+
+@media screen and (min-width:1024px){
+    .navBarSection {
+        height: 6rem;
+    }
+    .navbarClick{
+        font-size: 1.4rem;
+    }
+}
+
