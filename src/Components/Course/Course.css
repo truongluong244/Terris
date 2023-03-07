@@ -64,7 +64,7 @@
       min-inline-size: -webkit-fill-available;
       background-image: url("../../Assets/image3.jpg");
       margin: auto;
-      -webkit-mask: url("../../Assets/layout2.png") 0% 0% / 100% 100%;
+      /* -webkit-mask: url("../../Assets/layout2.png") 0% 0% / 100% 100%; */
   }
   .courseInfoLayout2Text {
       color: var(--headColor);
@@ -87,6 +87,27 @@
     font-family: sans-serif;
     line-height: 1.6;
   }
+  .courseForm1 {
+    background-image: url("../../Assets/course2.jpg");
+    border: 4px solid darkgray;
+  }
+  .courseForm2 {
+    background-image: url("../../Assets/course3.png");
+    border: 4px solid darkgray;
+  }
+  .courseForm3 {
+    background-image: url("../../Assets/course4.png");
+    border: 4px solid darkgray;
+  }
+  .courseForm4 {
+    background-image: url("../../Assets/course5.JPG");
+    border: 4px solid darkgray;
+  }
+
+  .courseInfoIMGLayout2 {
+    margin: 4rem;
+  }
+  
   
   
   

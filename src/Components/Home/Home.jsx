@@ -37,7 +37,7 @@ const Home = () => {
         </div>
         <div className="homeInfoh2Line"></div>
         <div className="homeInfoIMG">
-          <div className="homeInfoImgEdit"></div>
+          <div className="homeInfoImgEdit homeInfoImgBGR"></div>
         </div>
 
         <div className="homeInfoText">
@@ -68,45 +68,70 @@ const Home = () => {
         <div className="homeInfoh2Line "></div>
 
         <div className="homeInfoIMGLayout2 colum11">
-          <div className="homeInfoImgLayout2Edit "></div>
+          <div className="homeInfoImgLayout2Edit homeInfoImg1"></div>
           <div className="homeInfoLayout2Text ">
-            <p>Công ty TNHH Đầu tư Giáo dục TERIS </p>
+            <h3>Thiết kế và nâng cấp chương trình/ giáo án bộ môn steam robotics</h3>
+            <p>- Cung cấp chương trình học bản quyền từ MakeBlock quốc tế </p>
+            <br></br>
+            <p>- Giáo án chi tiết và slide bài giảng được xây dựng bài bản từ các chuyên gia, cố vấn giáo dục đến của TERIS VN</p>
+            <br></br>
+            <p>-Phân phối chương trình theo kế hoạch năm học của nhà trường </p>
+            <br></br>
+            <p>- Đồng hành với nhà trường sắp xếp thời khóa biểu hợp lý, tân dụng được tối đa nguồn lực với trang thiết bị sẵn có </p>         
+            <br></br>
+            <p>- Liên tục cập nhật chương trình bản quyền mới từ MAkeBlock quốc tế và nâng cấp giáo án tương ứng </p>
+          
+          
+          
           </div>
         </div>
 
         <div className="homeInfoIMGLayout2 colum11">
           <div className="homeInfoLayout2Text ">
-            <p>Công ty TNHH Đầu tư Giáo dục TERIS </p>
+            <h3>Giảng dạy và quản lý lớp học  </h3>
+            <p>- Nhân sự được đào tạo bài bản của TERIS VN bao gồm giáo viên, trợ giảng, kỹ thuật viên và giáo vụ sẽ trực tiếp quản lý lớp học, giảng dạy chương trình STEAM Robotics theo thời khóa biểu đươc phân, đảm bảo bám sát phân phối chương trình mà hai bên thống nhất </p>
+            <br></br>
+            <p>- Tổ chức các khóa nâng cao nghiệp vụ và cập nhật chương trình liên tục để cải tiến và nâng cao chất lượng bài giảng </p>
+          <br></br>
+          <p>Có sụ phối hơp chặt chẽ với nhà trường để báo cáo tình hình học tập của học sinh</p>
           </div>
-          <div className="homeInfoImgLayout2Edit "></div>
+          <div className="homeInfoImgLayout2Edit homeInfoImg2 "></div>
         </div>
 
         <div className="homeInfoIMGLayout2 colum11">
-          <div className="homeInfoImgLayout2Edit "></div>
+          <div className="homeInfoImgLayout2Edit homeInfoImg3"></div>
           <div className="homeInfoLayout2Text ">
-            <p>Công ty TNHH Đầu tư Giáo dục TERIS </p>
-          </div>
-        </div>
-
-        <div className="homeInfoIMGLayout2 colum11">
-          <div className="homeInfoLayout2Text ">
-            <p>Công ty TNHH Đầu tư Giáo dục TERIS </p>
-          </div>
-          <div className="homeInfoImgLayout2Edit "></div>
-        </div>
-
-        <div className="homeInfoIMGLayout2 colum11">
-          <div className="homeInfoImgLayout2Edit "></div>
-          <div className="homeInfoLayout2Text ">
-            <p>Công ty TNHH Đầu tư Giáo dục TERIS </p>
+            <h3>Ngày hội trải nghiệm</h3>
+            <p>- Chia sẻ với nhà trường những kiến thức, kỹ năng tổ chức ngày hội trải nghiệm </p>
+            <br></br>
+            <p>- Đồng hành và phụ trách mảng STEAM Robotics trong Ngày hội </p>
           </div>
         </div>
 
         <div className="homeInfoIMGLayout2 colum11">
           <div className="homeInfoLayout2Text ">
-            <p>Công ty TNHH Đầu tư Giáo dục TERIS </p>
+            <h3>CLB/ chương trình hè  </h3>
+            <p>- Quản lý và tổ chức thực hiện lớp CLB/ Chương trình hè theo kế hoạch phối hợp với nhà trường </p>
           </div>
-          <div className="homeInfoImgLayout2Edit "></div>
+          <div className="homeInfoImgLayout2Edit homeInfoImg4"></div>
+        </div>
+
+        <div className="homeInfoIMGLayout2 colum11">
+          <div className="homeInfoImgLayout2Edit homeInfoImg5"></div>
+          <div className="homeInfoLayout2Text ">
+            <h3>Bồi dưỡng tham gia các cuộc thi sáng tạo Robot</h3>
+            <p>- Tổ chức bồi dưỡng học sinh giỏi của trường tham gia các cuộc thi sáng tạo Robot các cấp học trong nước 
+</p>
+<br></br>
+<p>- Bồi dưỡng học sinh tham gia cuộc thi lớn trong nước và quốc tế như Giải đấu MakeX, Robocon, Hackathon,...</p>
+          </div>
+        </div>
+
+        <div className="homeInfoIMGLayout2 colum11">
+          <div className="homeInfoLayout2Text ">
+            <h3>Đầu tư phòng học chuẩn TERIS STEAM LAB</h3>
+          </div>
+          <div className="homeInfoImgLayout2Edit homeInfoImg6 "></div>
         </div>
 
         {/* layout 4 */}
